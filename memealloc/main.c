@@ -338,10 +338,10 @@ intptr uitoa(
                            MEMEALLOC
    ------------------------------------------------------------- */
 
-u8* memory = 0;
-uintptr memory_size = 0;
+globvar u8* memory = 0;
+globvar uintptr memory_size = 0;
 
-u8* pmemory = 0;
+globvar u8* pmemory = 0;
 
 /* TODO: use macro trickery to add caller to each allocation */
 typedef struct
