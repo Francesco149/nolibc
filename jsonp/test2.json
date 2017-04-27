@@ -1,0 +1,11 @@
+{
+    "a": null,
+    "b": 123,
+    "c": 123.123,
+    "d": 123.123e123,
+    "e": true,
+    "f": false,
+    "g": [ 1, 2, 3, 4, 5, [ "a", "b", "c" ], [ true, false, null ] ],
+    "h": { "foo": "bar", "bar": 123e10 },
+    "i": "abcd\u1234cock\"hehe\"\\"
+}
