@@ -108,13 +108,13 @@
         push esi
         push edi
         push ebp
-        mov eax,[esp+4+12]
-        mov ebx,[esp+8+12]
-        mov ecx,[esp+12+12]
-        mov edx,[esp+16+12]
-        mov esi,[esp+20+12]
-        mov edi,[esp+24+12]
-        mov ebp,[esp+28+12]
+        mov eax,[esp+4+16]
+        mov ebx,[esp+8+16]
+        mov ecx,[esp+12+16]
+        mov edx,[esp+16+16]
+        mov esi,[esp+20+16]
+        mov edi,[esp+24+16]
+        mov ebp,[esp+28+16]
         int 0x80
         pop ebp
         pop edi
